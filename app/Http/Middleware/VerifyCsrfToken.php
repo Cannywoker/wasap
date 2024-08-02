@@ -16,6 +16,7 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         'webhook',
-        'send-message', // Asegúrate de que esta línea esté presente
+        'send-message',
+        'test-post', // Asegúrate de que esta línea esté presente
     ];
 }
